@@ -44,8 +44,7 @@ db.cust_table.aggregate([
 ]);
 
 db.cust_table.aggregate([
-{ $group: { _id: "$Cust_Name", total: { $sum: 1 } } } // This counts the number of
-documents per customer
+{ $group: { _id: "$Cust_Name", total: { $sum: 1 } } } 
 ]);
 
 db.cust_table.aggregate([
