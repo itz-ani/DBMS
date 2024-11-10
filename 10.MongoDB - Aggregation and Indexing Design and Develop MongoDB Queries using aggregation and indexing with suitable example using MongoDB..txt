@@ -57,6 +57,6 @@ db.cust_table.createIndex({'Cust_Name': 1});
 
 db.cust_table.getIndexes();
 
-db.cust_table.dropIndex("Item_id_1"); // Use the index name shown in getIndexes()
+db.cust_table.dropIndex("Item_id_1"); 
 
 db.cust_table.getIndexes();
